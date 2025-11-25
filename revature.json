@@ -1,0 +1,44 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        [
+          [
+            {
+              "methodName": "test_int_to_float",
+              "label": "Verify int_to_float converts integers to floats",
+              "description": "Checks that int_to_float(5) produces a float value and that the numerical result is 5.0."
+            },
+            {
+              "methodName": "test_float_to_int",
+              "label": "Verify float_to_int converts floats to integers",
+              "description": "Ensures that float_to_int(3.14) returns an int and truncates the value correctly to 3."
+            },
+            {
+              "methodName": "test_str_to_int",
+              "label": "Verify str_to_int converts numeric strings to integers",
+              "description": "Validates that str_to_int(\"10\") yields an int with value 10, demonstrating proper string-to-int conversion."
+            },
+            {
+              "methodName": "test_str_to_float",
+              "label": "Verify str_to_float converts numeric strings to floats",
+              "description": "Confirms that str_to_float(\"3.14\") returns a float representation of the value 3.14."
+            },
+            {
+              "methodName": "test_int_to_str",
+              "label": "Verify int_to_str converts integers to strings",
+              "description": "Checks that int_to_str(10) produces the string \"10\", confirming proper int-to-string conversion."
+            },
+            {
+              "methodName": "test_float_to_str",
+              "label": "Verify float_to_str converts floats to strings",
+              "description": "Ensures that float_to_str(3.14) returns the string \"3.14\" as expected in this lab’s type-conversion exercises."
+            }
+          ]
+        ]
+      ]
+    }
+  ]
+}
