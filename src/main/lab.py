@@ -1,6 +1,6 @@
 def int_to_float(value):
     """
-    Instead of returning 0, this method should Convert an integer to a float and return that value.
+    Instead of returning 0, this method should convert an integer to a float and return that value.
 
     :param value: The integer value to convert.
     :return: The float value.
@@ -9,7 +9,7 @@ def int_to_float(value):
 
 def float_to_int(value):
     """
-    Instead of returning 0, this method should Convert a float to an integer and return that value.
+    Instead of returning 0, this method should convert a float to an integer and return that value.
 
     :param value: The float value to convert.
     :return: The integer value.
@@ -18,7 +18,7 @@ def float_to_int(value):
 
 def str_to_int(value):
     """
-    Instead of returning 0, this method should Convert a string to an integer and return that value.
+    Instead of returning 0, this method should convert a string to an integer and return that value.
 
     :param value: The string value to convert.
     :return: The integer value.
@@ -31,7 +31,7 @@ def str_to_int(value):
 
 def str_to_float(value):
     """
-    Instead of returning 0, this method should Convert a string to a float and return that value.
+    Instead of returning 0, this method should convert a string to a float and return that value.
 
     :param value: The string value to convert.
     :return: The float value.
@@ -39,12 +39,12 @@ def str_to_float(value):
     try:
         return 0
     except ValueError:
-        print("Invalid input: unable to convert to integer")
+        print("Invalid input: unable to convert to float")
         return None
 
 def int_to_str(value):
     """
-    Instead of returning None, this method should Convert an integer to a string and return that value.
+    Instead of returning None, this method should convert an integer to a string and return that value.
 
     :param value: The integer value to convert.
     :return: The string value.
@@ -53,7 +53,7 @@ def int_to_str(value):
 
 def float_to_str(value):
     """
-    Instead of returning None, this method should Convert a float to a string and return that value.
+    Instead of returning None, this method should convert a float to a string and return that value.
 
     :param value: The float value to convert.
     :return: The string value.
